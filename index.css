@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+.door {
+  height: 125px;
+  width: 80px;
+  background-color: #eee8aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.unchosen {
+  cursor: pointer;
+}
+
+.unchosen:hover {
+  filter: brightness(92%);
+}
+
+.doors-block {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-block {
+  display: flex;
+  gap: 7px;
+}
+
+button {
+  height: 25px;
+  cursor: pointer;
+}
+
+.revealed-door {
+  background-color: #ff9999;
+}
+
+.chosen-one {
+  border: 3px solid black;
+}
+
+.win-door {
+  background-color: #00cc66;
+}
